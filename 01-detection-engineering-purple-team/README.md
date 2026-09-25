@@ -7,6 +7,8 @@
 
 A purple-team project that builds an instrumented, segmented enterprise environment, emulates a defined threat actor against it, and engineers detections for every stage of the attack. The point is not to attack or defend in isolation but to close the loop: run the adversary's real techniques, see what the sensors catch and miss, then improve the coverage.
 
+**[Read the full report (PDF)](./PurpleTeam_Detection_Engineering_Full_Report.pdf)**
+
 ## Overview
 
 The problem this addresses is the gap between "we have a SIEM" and "we can actually detect an attack." A monitoring stack that has never been tested against real adversary behavior gives a false sense of security. This project takes the opposite approach. A threat actor is chosen first, its tactics, techniques, and procedures (TTPs) are mapped to MITRE ATT&CK, and the environment is then attacked along exactly those TTPs so each detection can be proven against genuine malicious traffic rather than assumed.
