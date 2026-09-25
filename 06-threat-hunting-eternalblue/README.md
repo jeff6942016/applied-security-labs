@@ -7,6 +7,8 @@
 
 An individual, two-phase threat-hunting and detection project targeting the MS17-010 (EternalBlue) attack chain against the Windows SMB service. It pairs manual threat hunting with an automated, PCAP-driven detection pipeline, and documents honestly how a lab failure in the live phase was recovered by generating synthetic traffic to validate the detections.
 
+**[Read the full report (PDF)](./EternalBlue_Report.pdf)**
+
 ## Overview
 
 The exercise targets a well-documented five-stage attack chain from Chapter 7 of The Art of Network Penetration Testing: SMB reconnaissance, MS17-010 vulnerability scanning, EternalBlue exploitation, a Meterpreter reverse-HTTPS command-and-control channel, and post-exploitation credential harvesting. The goal was to evaluate both manual and automated detection against that chain.
