@@ -7,6 +7,8 @@
 
 A full web and API security assessment of a real open-source application (Penpot) deployed in Docker, following the OWASP methodology from reconnaissance through authenticated testing and API abuse, with confirmed vulnerabilities responsibly disclosed and a DevSecOps pipeline built to catch this class of issue automatically.
 
+**[Read the full report (PDF)](./Web_API_Security_Testing_Full_Report.pdf)**
+
 ## Overview
 
 This project assesses a production-grade open-source web application rather than a deliberately vulnerable practice target, which means findings had to be discovered and proven, not just located where a lab put them. The assessment covered reconnaissance and vulnerability scanning, authentication and authorization testing, secret management, configuration and runtime review, cryptographic review, and the OWASP API Security Top 10 (broken object-level and function-level authorization, mass assignment, and rate limiting).
