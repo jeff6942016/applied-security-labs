@@ -7,6 +7,8 @@
 
 An end-to-end incident response to a simulated PsExec intrusion, taken through the full lifecycle: detect the attack across the network and host, contain it, eradicate the foothold, recover to a known-good state, validate, and trace the root cause into concrete hardening. Every stage of the attacker's chain is backed by evidence from a specific sensor.
 
+**[Read the full report (PDF)](./Incident_Response_Report.pdf)**
+
 ## Overview
 
 The scenario is a realistic internal compromise. An attacker on Kali Linux (172.16.1.130) used valid local-administrator credentials to reach a domain workstation, WIN-VICTIM (172.16.1.70), over SMB, used Impacket PsExec to gain a SYSTEM-level shell, executed a staged payload, established persistence through a scheduled task and a registry Run key, attempted discovery and lateral movement toward the Active Directory and Services hosts, and completed an HTTP command-and-control callback.
