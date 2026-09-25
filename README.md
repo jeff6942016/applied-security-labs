@@ -68,4 +68,4 @@ flowchart TD
 Jeffrey Lam-Ping-Fong
 [LinkedIn](https://www.linkedin.com/in/jeffrey-lam-ping-fong-07a649321/) · [GitHub](https://github.com/jeff6942016)
 
-Honours Bachelor of Information Technology (Cybersecurity), Seneca Polytechnic. CompTIA Security+ certified.
+Honours Bachelor of Information Technology (Cybersecurity), Seneca Polytechnic.
