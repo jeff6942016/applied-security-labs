@@ -7,6 +7,8 @@
 
 A full-cycle internal network penetration test carried out against a controlled lab domain, moving from reconnaissance through exploitation, post-exploitation, and lateral movement, and finishing with a professional-format penetration test report. The emphasis is on the methodology and the reasoning at each phase, not just the exploits.
 
+**[Read the full report (PDF)](./Network_Penetration_Testing_Full_Report.pdf)**
+
 ## Overview
 
 A penetration test is only valuable if it is repeatable and well reasoned. This project works through the standard engagement lifecycle deliberately: understand scope, discover hosts and services, identify vulnerabilities, exploit only what the engagement calls for, establish and use a foothold, and then report findings in a form a client could act on. Each exploit was chosen because the reconnaissance justified it, which is the difference between a methodical test and running tools at random.
