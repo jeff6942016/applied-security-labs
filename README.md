@@ -4,7 +4,7 @@
 ![Detection](https://img.shields.io/badge/Detection-Wazuh%20%7C%20Suricata%20%7C%20Splunk-2E7D32)
 ![Offensive](https://img.shields.io/badge/Offensive-Metasploit%20%7C%20Impacket%20%7C%20Burp%20Suite-B71C1C)
 ![Framework](https://img.shields.io/badge/Framework-MITRE%20ATT%26CK%20%7C%20NIST%20%7C%20OWASP-455A64)
-![Cert](https://img.shields.io/badge/Cert-CompTIA%20Security%2B-E10098)
+
 
 A consolidated portfolio of four hands-on security projects spanning the full attack-and-defend lifecycle: building and detecting attacks, exploiting networks, responding to a live intrusion, and assessing a real web application. Each project pairs a written walkthrough with the evidence screenshots from the original engagement, so the reasoning behind each step is visible, not just the result.
 
