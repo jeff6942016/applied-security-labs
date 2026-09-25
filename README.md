@@ -1,7 +1,7 @@
 # Applied Security Labs Portfolio
 
 ![Focus](https://img.shields.io/badge/Focus-Offensive%20%26%20Defensive%20Security-1F3864)
-![Detection](https://img.shields.io/badge/Detection-Wazuh%20%7C%20Suricata%20%7C%20Splunk-2E7D32)
+![Detection](https://img.shields.io/badge/Detection-Wazuh%20%7C%20Suricata%20%7C%20Sysmon-2E7D32)
 ![Offensive](https://img.shields.io/badge/Offensive-Metasploit%20%7C%20Impacket%20%7C%20Burp%20Suite-B71C1C)
 ![Framework](https://img.shields.io/badge/Framework-MITRE%20ATT%26CK%20%7C%20NIST%20%7C%20OWASP-455A64)
 ![Cert](https://img.shields.io/badge/Cert-CompTIA%20Security%2B-E10098)
@@ -16,7 +16,7 @@ The work is deliberately organized around the way these disciplines connect in p
 
 ### A note on collaboration
 
-Three of these four projects were team projects completed as Group 11 in my program (SPR708 and SPR600), and the web application assessment was a shared WAS705 project. Rather than splitting into fixed roles, the team worked through these side by side, so I was hands-on across the phases of each project rather than owning a single slice. I have included them because I understand each one in full and can walk through any part of it. The network penetration testing project (RIS602) was my individual coursework.
+The portfolio mixes team and individual work, and each project's README says which it is. The detection and purple-team work (SPR708 and SPR600) and the web application assessment (WAS705) were team projects, worked through side by side rather than split into fixed roles, so I was hands-on across the phases rather than owning a single slice. The network penetration testing (RIS602) and the two threat-hunting projects (AdFind Recon and EternalBlue Detection) were my individual work. I have included the team projects because I understand each one in full and can walk through any part of it.
 
 ## Repository Map
 
@@ -24,27 +24,28 @@ Three of these four projects were team projects completed as Group 11 in my prog
 flowchart TD
     A[Applied Security Labs Portfolio] --> P1[01 Detection Engineering and Purple Team]
     A --> P2[02 Network Penetration Testing]
-    A --> P3[03 Incident Response and Threat Hunting]
+    A --> P3[03 Incident Response]
     A --> P4[04 Web and API Penetration Testing]
+    A --> P5[05 Threat Hunting: AdFind Recon]
+    A --> P6[06 Threat Hunting: EternalBlue Detection]
 
     P2 -->|attacker TTPs to detect| P1
     P1 -->|instrumented environment| P3
+    P2 -->|MS17-010 chain to hunt| P6
+    P1 -->|detection engineering| P5
     P4 -->|application-layer findings| P1
-
-    P1 -.-> T1[Wazuh, Suricata, Sysmon, Splunk, MITRE ATT&CK/D3FEND]
-    P2 -.-> T2[Nmap, Metasploit, Impacket, Mimikatz]
-    P3 -.-> T3[Suricata, Wazuh, Windows event logs, Wireshark]
-    P4 -.-> T4[Burp Suite, OWASP methodology, DevSecOps CI/CD]
 ```
 
 ## Projects
 
 | # | Project | What it demonstrates | Type |
 |---|---------|----------------------|------|
-| 01 | [Detection Engineering and Purple Team](./01-detection-engineering-purple-team) | Building an instrumented enterprise environment, emulating a real adversary, and engineering detections for each stage | Team (Group 11) |
+| 01 | [Detection Engineering and Purple Team](./01-detection-engineering-purple-team) | Building an instrumented enterprise environment, emulating a real adversary, and engineering detections for each stage | Team |
 | 02 | [Network Penetration Testing](./02-network-penetration-testing) | Full-cycle internal network penetration testing, exploitation, post-exploitation, and formal reporting | Individual |
-| 03 | [Incident Response and Threat Hunting](./03-incident-response-threat-hunting) | End-to-end response to a simulated PsExec intrusion: detect, contain, eradicate, recover, root-cause | Team (Group 11) |
-| 04 | [Web and API Penetration Testing](./04-web-api-penetration-testing) | OWASP-methodology assessment of a real containerized web app, with confirmed CVE-class findings and a DevSecOps pipeline | Team (WAS705) |
+| 03 | [Incident Response](./03-incident-response) | End-to-end response to a simulated PsExec intrusion: detect, contain, eradicate, recover, root-cause | Team |
+| 04 | [Web and API Penetration Testing](./04-web-api-penetration-testing) | OWASP-methodology assessment of a real containerized web app, with confirmed CVE-class findings and a DevSecOps pipeline | Team |
+| 05 | [Threat Hunting: AdFind Recon](./05-threat-hunting-adfind-recon) | Hypothesis-driven threat hunt on a real DFIR case, with custom Wazuh and Suricata detections and automated response | Individual |
+| 06 | [Threat Hunting: EternalBlue Detection](./06-threat-hunting-eternalblue) | Two-phase manual and automated detection of the MS17-010 chain, using Scapy-generated PCAPs and a Python detection pipeline | Individual |
 
 ## Key Concepts Demonstrated
 
@@ -57,7 +58,7 @@ flowchart TD
 
 ## Skills Demonstrated
 
-- Detection and monitoring: Wazuh SIEM, Suricata IDS, Sysmon, Splunk, log correlation, custom rule authoring
+- Detection and monitoring: Wazuh SIEM, Suricata IDS, Sysmon, log correlation, custom rule authoring, Wazuh Active Response automation
 - Offensive security: Nmap, Metasploit, Impacket, Mimikatz, Burp Suite Professional, OWASP testing methodology
 - Incident response and forensics: attack-chain reconstruction, Windows event analysis, Wireshark stream reconstruction, Autopsy
 - Infrastructure: Active Directory, VirtualBox and Docker lab design, VLAN segmentation, firewall policy, PKI
