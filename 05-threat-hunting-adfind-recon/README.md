@@ -7,6 +7,8 @@
 
 An individual threat-hunting and detection-engineering project built on a real documented intrusion, the DFIR Report's "AdFind Recon" case. The attacker's tactics are replicated in a lab, hunted for, and then turned into layered detections and automated response so the same behavior would be caught in future.
 
+**[Read the full report (PDF)](./AdFind_Recon_Report.pdf)**
+
 ## Overview
 
 The case study is a common enterprise attack pattern: a threat actor gains access over RDP, uses the AdFind utility to bulk-enumerate Active Directory (users, groups, computers, trusts, and subnets via LDAP), and establishes persistence through a backdoor local administrator account. The exercise replicated this across five phases (initial RDP access, reconnaissance, session reconnect, AdFind execution via a batch file, and persistence) in the Capsulecorp Active Directory lab, then built detection from a hunting hypothesis rather than from prebuilt alerts.
