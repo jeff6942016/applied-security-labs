@@ -9,7 +9,7 @@ A full web and API security assessment of a real open-source application (Penpot
 
 ![Published Advisory](https://img.shields.io/badge/Published-GHSA--mj9f--5cwq--7p3q-B71C1C)
 
-> **Published outcome:** this assessment led to a maintainer-confirmed GitHub Security Advisory, [GHSA-mj9f-5cwq-7p3q](https://github.com/penpot/penpot/security/advisories/GHSA-mj9f-5cwq-7p3q) (CWE-613, Insufficient Session Expiration, CVSS 5.9), credited to me as reporter and fixed in Penpot 2.18.0. The server-side session was not invalidated on logout, so a captured auth-token cookie stayed valid for full profile access after the victim logged out.
+> **Published outcome:** this assessment led to a maintainer-confirmed GitHub Security Advisory, [GHSA-mj9f-5cwq-7p3q](https://github.com/penpot/penpot/security/advisories/GHSA-mj9f-5cwq-7p3q) (CWE-613, Insufficient Session Expiration, CVSS 5.9), credited to a groupmate and I as finders and fixed in Penpot 2.18.0. The server-side session was not invalidated on logout, so a captured auth-token cookie stayed valid for full profile access after the victim logged out.
 
 **[Read the full report (PDF)](./Web_API_Security_Testing_Full_Report.pdf)**
 
