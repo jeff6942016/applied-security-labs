@@ -103,7 +103,7 @@ The full set is in the [application-testing folder](./was705-lab4).
 
 ## Team and My Role
 
-This was a WAS705 team project assessing the same target application. The work was divided across the team, and I contributed to the testing and to the written assessment and secure-coding deliverables. The two confirmed findings were documented as GitHub Security Advisories. I have included this project because I understand the full methodology and can explain each finding, its CWE mapping, and its remediation, including the areas teammates focused on.
+This was a WAS705 team project assessing the same target application, completed with Evan Bettencourt, Easton Soares, and Jacob Williams. We worked through the assessment together rather than dividing it into fixed roles, so I was hands-on across the testing and the written assessment and secure-coding deliverables. The two confirmed findings were documented as GitHub Security Advisories. I understand the full methodology and can explain each finding, its CWE mapping, and its remediation.
 
 ## Lessons Learned
 

@@ -120,7 +120,7 @@ Response actions were validated (rules and system checks, and confirmation that 
 
 ## Team and My Role
 
-This was a Group 11 project (SPR708). Roles were coordinator (Evan Bettencourt), red team lead (Easton Soares), blue team lead (Jacob Williams), and CTI lead (myself). I owned the threat-actor and TTP mapping and the reporting that connected each attacker action to its detection and ATT&CK technique. Because the report I led had to tie the attack, the detections, and the remediation together, I can walk through the full lifecycle here, including the red-team execution and the blue-team detection work my teammates led.
+This was a Group 11 project (SPR708), completed with Evan Bettencourt, Easton Soares, and Jacob Williams. We worked through it side by side rather than dividing into fixed roles, so I was involved across the whole incident: the attack simulation, the detection and correlation, and the containment and remediation. That is why I can walk through the full lifecycle here rather than only one part.
 
 ## Lessons Learned
 

@@ -4,7 +4,7 @@
 ![Detection](https://img.shields.io/badge/Detection-Wazuh%20%7C%20Suricata%20%7C%20Splunk-2E7D32)
 ![Offensive](https://img.shields.io/badge/Offensive-Metasploit%20%7C%20Impacket%20%7C%20Burp%20Suite-B71C1C)
 ![Framework](https://img.shields.io/badge/Framework-MITRE%20ATT%26CK%20%7C%20NIST%20%7C%20OWASP-455A64)
-
+![Cert](https://img.shields.io/badge/Cert-CompTIA%20Security%2B-E10098)
 
 A consolidated portfolio of four hands-on security projects spanning the full attack-and-defend lifecycle: building and detecting attacks, exploiting networks, responding to a live intrusion, and assessing a real web application. Each project pairs a written walkthrough with the evidence screenshots from the original engagement, so the reasoning behind each step is visible, not just the result.
 
@@ -16,7 +16,7 @@ The work is deliberately organized around the way these disciplines connect in p
 
 ### A note on collaboration
 
-Three of these four projects were team projects completed as Group 11 in my program (SPR708 and SPR600), and the web application assessment was a shared WAS705 project. I did not build every piece alone, and the per-project READMEs name who led what. My own role across the SPR708 work was the cyber threat intelligence (CTI) lead: I owned the threat-actor selection, the ATT&CK/TTP mapping that drove each exercise, and the reporting. I have included these because I understand each project in full, including the components my teammates led, and can walk through any part of them. The network penetration testing project (RIS602) was my individual coursework.
+Three of these four projects were team projects completed as Group 11 in my program (SPR708 and SPR600), and the web application assessment was a shared WAS705 project. Rather than splitting into fixed roles, the team worked through these side by side, so I was hands-on across the phases of each project rather than owning a single slice. I have included them because I understand each one in full and can walk through any part of it. The network penetration testing project (RIS602) was my individual coursework.
 
 ## Repository Map
 
@@ -68,4 +68,4 @@ flowchart TD
 Jeffrey Lam-Ping-Fong
 [LinkedIn](https://www.linkedin.com/in/jeffrey-lam-ping-fong-07a649321/) · [GitHub](https://github.com/jeff6942016)
 
-Honours Bachelor of Information Technology (Cybersecurity), Seneca Polytechnic.
+Honours Bachelor of Information Technology (Cybersecurity), Seneca Polytechnic. CompTIA Security+ certified.

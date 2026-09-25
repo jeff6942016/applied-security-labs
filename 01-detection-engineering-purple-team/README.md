@@ -72,7 +72,7 @@ flowchart LR
 
 ### 1. Prepare: threat modeling and the PEIR process
 
-The exercise followed a Prepare, Execute, Identify, Remediate (PEIR) process. The Prepare phase established the threat actor, mapped its TTPs to ATT&CK, defined the infrastructure scope, and assessed the target environment's maturity so the exercise had a realistic baseline. As CTI lead, this threat-actor selection and TTP mapping was the part I owned, and it set the plan every later phase followed.
+The exercise followed a Prepare, Execute, Identify, Remediate (PEIR) process. The Prepare phase established the threat actor, mapped its TTPs to ATT&CK, defined the infrastructure scope, and assessed the target environment's maturity so the exercise had a realistic baseline. This threat-actor selection and TTP mapping set the plan that every later phase followed.
 
 <details>
 <summary>PEIR process evidence</summary>
@@ -160,7 +160,7 @@ To understand ransomware behavior from the attacker side, the team built a contr
 
 ## Team and My Role
 
-This was a Group 11 project (SPR708), with the CIS Controls monitoring build from SPR600. Roles were divided as coordinator (Evan Bettencourt), red team lead (Easton Soares), blue team lead (Jacob Williams), and CTI lead (myself). My work centered on the threat intelligence that drove the exercise: selecting the threat actor, mapping its TTPs to MITRE ATT&CK, and writing the reporting that tied attack evidence to detections. I worked closely enough with the red-team execution and the blue-team detection engineering to explain both, which is why the walkthrough above covers the whole chain rather than only my section.
+This was a Group 11 project (SPR708), with the CIS Controls monitoring build from SPR600, completed with Evan Bettencourt, Easton Soares, and Jacob Williams. We worked through it together rather than splitting into fixed roles, so I was hands-on across the whole exercise: the threat-actor and ATT&CK/TTP planning, the attack execution, and the detection engineering. That is why the walkthrough above covers the full chain rather than a single slice.
 
 ## Lessons Learned
 
