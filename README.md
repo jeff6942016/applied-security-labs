@@ -8,6 +8,10 @@
 
 A consolidated portfolio of four hands-on security projects spanning the full attack-and-defend lifecycle: building and detecting attacks, exploiting networks, responding to a live intrusion, and assessing a real web application. Each project pairs a written walkthrough with the evidence screenshots from the original engagement, so the reasoning behind each step is visible, not just the result.
 
+![Published Advisory](https://img.shields.io/badge/Published-GHSA--mj9f--5cwq--7p3q-B71C1C)
+
+> **Published outcome:** The assessment from [Web and API Penetration Testing](./04-web-api-penetration-testing) led to a maintainer-confirmed GitHub Security Advisory, [GHSA-mj9f-5cwq-7p3q](https://github.com/penpot/penpot/security/advisories/GHSA-mj9f-5cwq-7p3q) (CWE-613, Insufficient Session Expiration, CVSS 5.9).
+
 ## Overview
 
 Most security learning stops at "I ran the tool." The goal of this portfolio is to show the layer underneath: why a control was chosen, what an attacker's behavior actually looks like on the wire and on the host, and how a defender turns that behavior into a detection or a remediation. The four projects were built on self-hosted, isolated lab infrastructure (VirtualBox and Docker) rather than pre-canned platforms, so every log source, firewall rule, and detection was configured by hand and can be explained end to end.
